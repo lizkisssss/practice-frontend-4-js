@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-       <h2>3. Navigation</h2>
+    <p class="output">Selected color: -</p>
+    <div class="color-palette"></div>
+       <h2>3.Navigation</h2>
     <ul class="nav js-nav">
       <li class="item">
         <button class="btn" data-value="html">#html</button>
@@ -32,6 +34,20 @@
       </li>
       <li class="item">
         <button class="btn" data-value="nodejs">#nodejs</button>
+      </li>
+    </ul>
+    <ul id="userList">
+      <li data-id="1">
+        John Doe
+        <button class="deleteButton">Delete</button>
+      </li>
+      <li data-id="2">
+        Jane Smith
+        <button class="deleteButton">Delete</button>
+      </li>
+      <li data-id="3">
+        Bob Johnson
+        <button class="deleteButton">Delete</button>
       </li>
     </ul>
     <script src="./js/lesson-1.js"></script>
